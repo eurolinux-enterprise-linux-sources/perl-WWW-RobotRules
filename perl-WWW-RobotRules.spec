@@ -1,6 +1,6 @@
 Name:           perl-WWW-RobotRules
 Version:        6.02
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Database of robots.txt-derived permissions
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -51,6 +51,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6.02-5
+- Mass rebuild 2013-12-27
+
 * Mon Aug 27 2012 Jitka Plesnikova <jplesnik@redhat.com> - 6.02-4
 - Specify all dependencies.
 
